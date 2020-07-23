@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import * as Yup from 'yup';
+import api from '../../services/api';
 
 import getValidationErrors from '../../utils/getValidationErrors';
 
@@ -53,10 +54,20 @@ const SignUp: React.FC = () => {
 
       await schema.validate(data, { abortEarly: false });
 
-      // await api.post('/users', data);
+      console.log(data);
+      await api.post('/users', data);
 
-      // history.push('/');
+      console.log(data);
+      Alert.alert(
+        'Cadastro realizado com sucesso!',
+        'Você já pode fazer login na aplicação.',
+      );
+
+      navigation.goBack();
     } catch (err) {
+      console.log(err);
+      console.log(err[0]);
+
       if (err instanceof Yup.ValidationError) {
         const errors = getValidationErrors(err);
 
@@ -123,7 +134,9 @@ const SignUp: React.FC = () => {
                 secureTextEntry
                 textContentType="newPassword"
                 returnKeyType="send"
-                onSubmitEditing={() => formRef.current?.focus()}
+                onSubmitEditing={() => {
+                  passwordInputRef.current?.focus();
+                }}
               />
             </Form>
             <Button
