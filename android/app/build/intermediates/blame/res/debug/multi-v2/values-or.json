@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/germain/Projects/RocketSeat/GoStack/appgobarber/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
                     "source": "/home/germain/.gradle/caches/transforms-2/files-2.1/7f5aeccd48d5bc731df0adf1c8d7029e/core-1.1.0/res/values-or/values-or.xml",

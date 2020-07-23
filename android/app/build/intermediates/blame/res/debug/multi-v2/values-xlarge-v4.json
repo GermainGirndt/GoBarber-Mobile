@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/germain/Projects/RocketSeat/GoStack/appgobarber/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
                     "source": "/home/germain/.gradle/caches/transforms-2/files-2.1/b058cda32d7fc75b0153169eacbd0342/appcompat-1.1.0/res/values-xlarge-v4/values-xlarge-v4.xml",
