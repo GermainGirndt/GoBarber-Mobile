@@ -1,4 +1,4 @@
-#Thu Jul 23 08:29:33 BRT 2020
+#Thu Jul 23 20:50:22 BRT 2020
 base.0=/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
