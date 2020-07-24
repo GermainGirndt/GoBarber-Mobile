@@ -45,12 +45,12 @@ export const AuthProvider: React.FC = ({ children }) => {
   }, []);
 
   const signIn = useCallback(async ({ email, password }) => {
-    console.log('acessing api');
+    console.log('Acessing api... sending post request');
     const response = await api.post<RequestData>('sessions', {
       email,
       password,
     });
-    console.log('acessing api 2');
+    console.log('Acessing api... printing response');
     console.log(response.data);
 
     const { token, user } = response.data;
@@ -63,7 +63,7 @@ export const AuthProvider: React.FC = ({ children }) => {
     setData({ token, user });
   }, []);
 
-  const signOut = useCallback(() => {
+  const signOut = useCallback(async () => {
     await AsyncStorage.multiRemove(['@GoBarber:token', '@GoBarber:user']);
 
     setData({} as RequestData);
