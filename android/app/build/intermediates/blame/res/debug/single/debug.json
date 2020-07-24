@@ -44,12 +44,12 @@
         "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/drawable-mdpi_src_assets_logo.png.flat",
         "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/drawable-mdpi/src_assets_logo.png"
+    },
+    {
+        "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
@@ -76,15 +76,15 @@
         "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
-        "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_node_modules_reactnavigation_stack_src_views_assets_backicon.png.flat",
         "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/drawable-xxhdpi/node_modules_reactnavigation_stack_src_views_assets_backicon.png"
     },
     {
         "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/drawable-mdpi_node_modules_reactnavigation_stack_src_views_assets_backiconmask.png.flat",
         "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/drawable-mdpi/node_modules_reactnavigation_stack_src_views_assets_backiconmask.png"
+    },
+    {
+        "merged": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/germain/Projects/RocketSeat/GoStack/15-GoBarber-Mobile/appgobarber/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     }
 ]
